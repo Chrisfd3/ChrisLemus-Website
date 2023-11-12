@@ -1,0 +1,116 @@
+clemu019:~/environment $ git clone https://github.com/JordanSchuetz/LearnCS8-Resume.git
+Cloning into 'LearnCS8-Resume'...
+remote: Enumerating objects: 1704, done.
+remote: Counting objects: 100% (45/45), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 1704 (delta 22), reused 35 (delta 16), pack-reused 1659
+Receiving objects: 100% (1704/1704), 4.20 MiB | 17.29 MiB/s, done.
+Resolving deltas: 100% (94/94), done.
+clemu019:~/environment $ ls
+lab1  lab2  Lab 3  LearnCS8-Resume  README.md
+clemu019:~/environment $ =LearnCS8-Resume
+bash: =LearnCS8-Resume: command not found
+clemu019:~/environment $ git status
+fatal: not a git repository (or any of the parent directories): .git
+clemu019:~/environment $ LearnCS8-Resume
+bash: LearnCS8-Resume: command not found
+clemu019:~/environment $ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/ec2-user/environment/.git/
+clemu019:~/environment (master) $ git add .
+warning: adding embedded git repository: LearnCS8-Resume
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> LearnCS8-Resume
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached LearnCS8-Resume
+hint: 
+hint: See "git help submodule" for more information.
+clemu019:~/environment (master) $ git commit -m "frist commit"
+[master (root-commit) 33c504a] frist commit
+ Committer: EC2 Default User <ec2-user@ip-172-31-25-3.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 44 files changed, 424 insertions(+)
+ create mode 100644 .c9/.nakignore
+ create mode 100644 .c9/amazonwebservices.aws-toolkit-vscode/devfile.schema.json
+ create mode 100644 .c9/amazonwebservices.aws-toolkit-vscode/sam.schema.json
+ create mode 100644 .c9/amazonwebservices.aws-toolkit-vscode/telemetryCache
+ create mode 100644 .c9/cs008_fall23_clemu019/meta.json
+ create mode 100644 .c9/launch.json
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/img/IMG_1368.jpg
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/img/chrislemus.jpg
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/img/img/chrislemus.jpg
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/index.html
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/package-lock.json
+ create mode 100644 .c9/metadata/environment/LearnCS8-Resume/package.json
+ create mode 100644 .c9/metadata/environment/README.md
+ create mode 100644 .c9/metadata/environment/lab1/Chris-Lemus-Test.html
+ create mode 100644 .c9/metadata/environment/lab1/Learb/index.html
+ create mode 100644 .c9/metadata/environment/lab1/Learn CS8 T/index.html
+ create mode 100644 .c9/metadata/environment/lab1/Learn CS8 Twil/index.html
+ create mode 100644 .c9/metadata/environment/lab1/Learn CS8-Twilio/index.html
+ create mode 100644 .c9/metadata/environment/lab1/Learn CS8-Twilio/product.css
+ create mode 100644 .c9/metadata/environment/lab1/Learn CS8/index.html
+ create mode 100644 .c9/metadata/environment/lab1/Learn/index.html
+ create mode 100644 .c9/metadata/environment/lab1/TwilioTemplate/index.html
+ create mode 100644 .c9/metadata/environment/lab1/cs/index.html
+ create mode 100644 .c9/metadata/environment/lab1/index.html
+ create mode 100644 .c9/metadata/environment/lab2/TwilioTemplate/index.html
+ create mode 100644 .c9/metadata/environment/lab2/TwilioTemplate/product.css
+ create mode 100644 .c9/metadata/preview-/LearnCS8-Resume/index.html
+ create mode 100644 .c9/metadata/tab1
+ create mode 100644 .c9/metadata/tab2
+ create mode 100644 .c9/out_of_memory
+ create mode 100644 .c9/project.settings
+ create mode 100644 .c9/tasks.json
+ create mode 100644 Lab 3
+ create mode 160000 LearnCS8-Resume
+ create mode 100644 README.md
+ create mode 100644 lab1/Chris-Lemus-Test.html
+ create mode 100644 lab1/car.png
+ create mode 100644 lab1/index.html
+ create mode 100644 lab1/mazda logo.jpeg
+ create mode 100644 lab2/LearnCS8-Twilio
+ create mode 100644 lab2/TwilioTemplate/example_image.png
+ create mode 100644 lab2/TwilioTemplate/index.html
+ create mode 100644 lab2/TwilioTemplate/product.css
+ create mode 100644 lab2/car.png
+clemu019:~/environment (master) $ https://github.com/Chrisfd3/ChrisLemus-Website.git
+bash: https://github.com/Chrisfd3/ChrisLemus-Website.git: No such file or directory
+clemu019:~/environment (master) $ git push origins 
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origins master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+clemu019:~/environment (master) $ Chrisfd3 'https://github.com': Chrisfd3
+bash: Chrisfd3: command not found
+clemu019:~/environment (master) $
